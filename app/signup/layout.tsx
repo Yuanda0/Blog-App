@@ -4,7 +4,7 @@ import ProtectedPage from '@/userStateCheck';
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Profile",
+  title: "Sign Up",
   description: 'NextJS-Blog App',
 }
 

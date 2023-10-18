@@ -13,6 +13,22 @@ const nextConfig = {
          {
             protocol: 'https',
             hostname: 'logolook.net'
+         },
+         {
+            protocol: "https",
+            hostname: "miro.medium.com"
+         },
+         {
+            protocol: "https",
+            hostname: "developer.sas.com"
+         },
+         {
+            protocol: "https",
+            hostname: "velog.velcdn.com"
+         },
+         {
+            protocol: "https",
+            hostname: "cdn.discordapp.com"
          }
       ]
    }

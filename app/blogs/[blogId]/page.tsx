@@ -53,6 +53,7 @@ export default function BlogPage({params}: {params: { blogId: string }}) {
             draggable: true,
             theme: "dark",
           });
+          
           setTimeout(() => {
             window.location.reload();
           }, 2000)

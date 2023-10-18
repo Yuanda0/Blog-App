@@ -1,36 +1,7 @@
+import { DATAS } from '@/components/Constants';
+import Footer from '@/components/Footer';
 import Image from 'next/image';
 
-
-const DATAS = [
-  {
-    id: 1,
-    title: "Next.js",
-    img: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
-    description:
-      "Next.js is a powerful framework for building modern web applications. It is built on top of React, which is a versatile library.",
-  },
-  {
-    id: 2,
-    title: "React",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    description:
-      "React is the foundation of Next.js and offers a wide range of features for creating interactive and dynamic user interfaces.",
-  },
-  {
-    id: 3,
-    title: "JavaScript",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-    description:
-      "JavaScript is a key technology in web development and is often used alongside React and Next.js to create web applications.",
-  },
-  {
-    id: 4,
-    title: "Java",
-    img: "https://logolook.net/wp-content/uploads/2022/11/Java-Logo.png",
-    description:
-      "Feel free to customize this website, which was built using Next.js, React, and JavaScript, to suit your needs.",
-  },
-];
 
 export default function Home() {
   
@@ -39,7 +10,7 @@ export default function Home() {
       <h1 className="text-center font-bold text-white text-xl mt-20">
         Programming Languages and Frameworks I know
       </h1>
-      <div className="hidden md:flex md:flex-wrap items-center justify-center space-x-4 mt-20 border-b-2 border-white pb-10">
+      <div className="hidden md:flex md:flex-wrap items-center justify-center space-x-4 mt-20 pb-10">
         {DATAS.map((data, index) => (
           <div
             key={index}
@@ -96,6 +67,7 @@ export default function Home() {
           <strong>English</strong>.
         </p>
       </div>
+      <Footer />
     </main>
   );
 }
