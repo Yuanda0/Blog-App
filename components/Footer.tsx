@@ -12,6 +12,7 @@ export default function Footer() {
             className={`flex flex-col gap-4 md:w-[200px] text-center md:p-0 p-4 items-center md:border-l-2 md:${
               content.id === 3 && "border-r-2"
             }`}
+            key={content.id}
           >
             <h1>{content.text}</h1>
             <Link href={content.link} target="_blank">
