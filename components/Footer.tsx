@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="flex">
                 {CONTENTS.map((content) => (
                     <div
-                        className={content.id === 3 ? "flex flex-col gap-4 md:w-[200px] text-center md:p-0 p-4 items-center md:border-l-2 border-r-2"
+                        className={content.id === 3 ? "flex flex-col gap-4 md:w-[200px] text-center md:p-0 p-4 items-center md:border-l-2 md:border-r-2"
                             :
                             "flex flex-col gap-4 md:w-[200px] text-center md:p-0 p-4 items-center md:border-l-2 "}
                         key={content.id}
