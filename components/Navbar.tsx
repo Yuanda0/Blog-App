@@ -14,7 +14,7 @@ export default function Navbar() {
           BLOG-APP
         </Link>
         <Link
-          className="my-auto mr-5 font-bold border rounded-md p-2 hover:bg-white hover:scale-90 hover:shadow-md hover:shadow-white hover:text-black duration-300 ease-in-out"
+          className="link"
           href="/blogs"
         >
           Blogs
